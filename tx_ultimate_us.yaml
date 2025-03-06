@@ -461,7 +461,13 @@ light:
     segments:
       - id: leds
         from: 0
+        to: 30
+      - id: leds_top
+        from: 31
         to: 31
+      - id: leds
+        from: 0
+        to: 8
 
   - platform: partition
     name: "LEDs Top"
